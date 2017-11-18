@@ -1,0 +1,33 @@
+<div class="starter-template">
+        <h1><%= pageTitle %></h1>
+        <p class="lead">Users Page View</p>
+      </div>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th >ID</th>
+                    <th >Name</th>
+                    <th >Email</th>
+                    <th >Gender</th>
+                    <th>Options</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <% for(var i = 0; i < data.users.length; i++){ %>
+                  <tr>
+                    <td><%= data.users[i].id %></td>
+                    <td><%= data.users[i].name %></td>
+                    <td><%= data.users[i].email %></td>
+                    <td><%= data.users[i].gender %></td>
+                    <td><a href="/user/<%= i %>">View</a></td>
+                  </tr>
+                <% }; %>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>

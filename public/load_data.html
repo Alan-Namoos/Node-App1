@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var arr;
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        arr = JSON.parse(this.responseText);
+        for (let i = 0; i < arr.length; i++){
+            document.getElementById("demo").innerHTML += `
+                    <ul>
+                    <li>${arr[i].id}</li> 
+                    <li>${arr[i].name}</li> 
+                    <li>${arr[i].email}</li>
+                    <ul>
+                    `;
+        }
+    }
+};
+xmlhttp.open("GET", "https://jsonplaceholder.typicode.com/users", true);
+xmlhttp.send();
+
+
+
+</script>
+
+<p>Take a look at <a href="http://localhost:3000/users" target="_blank">JSON Object</a></p>
+
+</body>
+</html>

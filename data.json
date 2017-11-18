@@ -1,0 +1,22 @@
+{"users": [
+    {"id":1,"name":"Mort","email":"mhousin0@umn.edu","gender":"Male"},
+    {"id":2,"name":"Mordecai","email":"mmebes1@netlog.com","gender":"Male"},
+    {"id":3,"name":"Adora","email":"apovah2@skyrock.com","gender":"Female"},
+    {"id":4,"name":"Riobard","email":"rswaffield3@aol.com","gender":"Male"},
+    {"id":5,"name":"Vittorio","email":"vkeward4@imgur.com","gender":"Male"},
+    {"id":6,"name":"Keelby","email":"kworsnop5@nymag.com","gender":"Male"},
+    {"id":7,"name":"Ashely","email":"aterzi6@gravatar.com","gender":"Female"},
+    {"id":8,"name":"Codi","email":"cmasse7@nytimes.com","gender":"Female"},
+    {"id":9,"name":"Denis","email":"dkennifick8@slate.com","gender":"Male"},
+    {"id":10,"name":"Lynelle","email":"lbraddick9@friendfeed.com","gender":"Female"},
+    {"id":11,"name":"Geoffry","email":"gdufera@parallels.com","gender":"Male"},
+    {"id":12,"name":"Joanne","email":"jkeywoodb@nyu.edu","gender":"Female"},
+    {"id":13,"name":"Jillana","email":"jasselc@pinterest.com","gender":"Female"},
+    {"id":14,"name":"Cosme","email":"cduinkerkd@buzzfeed.com","gender":"Male"},
+    {"id":15,"name":"Matteo","email":"mboame@census.gov","gender":"Male"},
+    {"id":16,"name":"Wadsworth","email":"wscrannagef@meetup.com","gender":"Male"},
+    {"id":17,"name":"Gregoor","email":"gciottig@vk.com","gender":"Male"},
+    {"id":18,"name":"Lillis","email":"lcollish@istockphoto.com","gender":"Female"},
+    {"id":19,"name":"Stefano","email":"smcclareni@biglobe.ne.jp","gender":"Male"},
+    {"id":20,"name":"Xymenes","email":"xmolej@cafepress.com","gender":"Male"}
+]}
